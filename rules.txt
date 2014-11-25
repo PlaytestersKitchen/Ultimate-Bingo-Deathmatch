@@ -1,0 +1,53 @@
+Ultimate Bingo Deathmatch
+Each player has a 5 x 5 grid with letters B-I-N-G-O across the top and the number 1-5 along the left side.
+Select a player at random to take the “First Turn” marker. That player will act first in the second phase.
+Each player starts with the following
+Basic Lazor - (2E) Deal 1 damage to target.
+Basic Shield - (2E) Absorb 1 point of damage.
+Basic Battery - (Passive) +2E/turn. (0E) Store unused E to a max of 4E.
+There are 2 phases to play
+BINGO
+Each player rolls two 6 sided dice, one with faces [B, I, N, G, O, *] and the other with faces [1, 2, 3, 4 ,5, *]
+Based on the roll, each player places a cube on their BINGO grid
+Battle
+On a three count, each player selects one of their 3 items (Lazor, Shield, or Battery) to use for that round and do the following:
+Lazor - Player points at a target making a pistol shape with their hand. That target receives one damage either to his health or his shields.
+15 random spaces in the 5x5 grid are colored green.
+Cards
+Weapons
+Focused Lazor - 4E
+Normal: (1E) Deal 1 damage to target
+Overcharge: (2E) Deal 3 damage to target
+Plasma Lazor - 4E
+Normal: (2E) Deal 2 damage to target
+Overcharge: (2E) Deal 3 damage to target
+Sapping Lazor - 4E
+Normal: (3E) Deal 1 damage to target and sap 1E
+Overcharge: (2E) Deal 2 damage to target and sap 1E
+Diffracting Lazor - 6E
+Normal: (3E) Deal 2 damage to target & 1 to an adjacent player
+Overcharge: (3E) Deal 3 damage to target & 2 to an adjacent player
+Disabling Lazor - 6E
+Normal: (3E) Deal 2 damage to target. Target must lose 1E from battery or device used is disable for 1 round. 
+Overcharge: (2E) Deal 2 damage to target. Target loses 2E and device used is disable for 1 round.
+
+Shields
+Efficient Shield - 4E
+Normal: (1E) Absorb 1 damage for + 1E per damage
+Overcharge: (2E) Absorb all damage. Shield is disabled for 1 round
+Reflector Shield - 4E
+Normal: (2E) For each point of damage taken, spend 1E and reflect 1 point of damage back at damage source as if you used a Basic Lazor.
+Upgrade: (2E) Reflect all damage taken from any source at a single target. Shield is disabled for 1 round.
+Charger Shield - 5E
+Normal: (2E) Absorb 1 damage for + 1E per damage. Absorbed damage can be used to overcharge items.
+Overcharge: (2E) Absorb up to 3 damage and fully overcharge 1 item if any damage is absorbed.
+Absorber Shield - 5E
+Normal: (2E) Absorb 1 damage. Gain 1E for each point of unabsorbed damage.
+Overcharge: (3E) Absorb all damage. Shield is disabled for 1 round
+BINGO Shield - 6E
+Normal: (2E) Absorb 1 damage for + 1E per damage
+Overcharge: (6E) Absorb all damage and make extra BINGO roll. Shield is disabled for 1 round
+Batteries
+
+Terms
+Enegorz (E) - Currency used to power and purchase item cards.
