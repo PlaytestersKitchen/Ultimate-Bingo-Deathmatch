@@ -19,8 +19,8 @@
 * Each player sets their starting health to 3 by placing score cubes in the health boxes
 * Randomly select a player to go first and give that player the **First Turn** marker
 * Each player starts with the following items face up in front of him:
-  * Basic Lazor - Activate: (2E) Deal 1 damage to target
-  * Basic Shield - Activate: (2E) Absorb 1 point of damage
+  * Basic Lazor - Activate: (2E) Target takes 1 Dmg
+  * Basic Shield - Activate: (2E) Block 1 Dmg
   * Basic Battery - (Passive) Supply 2E. (Activate) Store 2E to a max of 4E
 
 ###**Objective**
@@ -66,28 +66,28 @@ They must make the proper hand gesture to indicate which item they are using and
 **Resolving Death** 
 
 * Damage is applied to player in turn order starting with **First Player** and going clockwise. Damage is first applied to shield then any remainder is applied to health.
-* If health is reduced to 0 points, player is killed. He chooses and rolls one of his two dice. The column or row indicated by the roll is then given to the attacker. Ex. If killed player chooses his letter die and rolls an N, then all the blocks scored on the N column are removed from his BINGO card and then scored on the attacker's card. 
+* If health is reduced to 0 points, player is killed and respawns with full health. He chooses and rolls one of his two dice. The column or row indicated by the roll is then given to the attacker. Ex. If killed player chooses his letter die and rolls an N, then all the blocks scored on the N column are removed from his BINGO card and then scored on the attacker's card. 
 * If multiple players attack and kill the same target, the killed player gets to decide which scored blocks each player gets, dividing them up as evenly as possible in turn order.
 * Any blocks scored this way follow the same rules as in the BINGO phase.
 
 **Power Cards**
 
-Power cards may be played at any time after purchase
+Power cards may be played at any time after purchase. Game includes 2 of each of the following:
 
 * **Targeting Tessellator** - Costs 4E
-When you defeat another player you choose reward cubes instead of them. Roll both dice, and take your pick of either row or column rolled.
-* **Charged Capacitor** - Costs 3E
-If you did not take damage this turn, gain 5E
-* **Backup Battery** - Costs 4E
-When you die, fully charge your battery.
+When you defeat another player, you make reward roll instead of them. Roll both dice, and then take your pick of either row or column based on result.
+* **Charged Capacitor** - Costs 2E
+If you took no damage this turn, gain 4E.
+* **Backup Battery** - Costs 5E
+When you respawn, fully charge your battery.
 * **Continuum Compressor** - Costs 3E
-Take a reroll for yourself or force one for another player.
+Make a reroll for yourself or force one for another player.
 * **Entropy Engine** - Costs 3E
 Convert a scored cube on your BINGO card into 4E.
 
 **Item Cards**
 
-Each item card (besides Basic items) has a Activate action and a more powerful Overcharge action. You can only use one of the actions at a time. You must spend the amount in parenthesis to use that action.
+Each item card (besides Basic items) has a Activate action and a more powerful Overcharge action. You can only use one of the actions at a time. You must spend the amount in parenthesis to use that action. Game includes 1 of each of the following:
 
 * Weapons
   * **Focused Lazor** - Costs 4E
@@ -104,38 +104,43 @@ Each item card (besides Basic items) has a Activate action and a more powerful O
      * Overcharge: (5E) 3 Dmg + 2 Dmg to an adjacent player
   * **Disabling Lazor** - Costs 7E
      * Activate: (3E) 2 Dmg + drain 2E or disable target’s activated device for 1 round. 
-     * Overcharge: (6E) 3 Dmg + drain 3E and disable target’s activated device for 1 round.
+     * Overcharge: (6E) 3 Dmg + drain 3E or disable target’s activated device for 1 round.
 
 * Shields
   * **Efficient Shield** - Costs 4E
-     * Activate: (1E) Block Dmg for an additional 1E per Dmg blocked.
-     * Overcharge: (4E) Absorb all Dmg. Disable Shield 1 round.
+     * Activate: (1E) Block Dmg for an additional 1E per Dmg Blocked.
+     * Overcharge: (3E) Block all Dmg. Disable Shield 1 round.
   * **Reflector Shield** - Costs 4E
-     * Activate: (2E) Block 1 Dmg. Spent 1E per unblocked Dmg to deal damage back to attacker.
+     * Activate: (2E) Block 1 Dmg. Spend 1E per unblocked Dmg to also damage attacker.
      * Overcharge: (5E) Reflect all Dmg taken to a single target. Disable Shield 1 round.
   * **Negator Shield** - Costs 5E
-     * Activate: (3E) Block 2 Dmg. Drain 1E from attacker for each point blocked.
+     * Activate: (3E) Block 2 Dmg. Drain 1E from attacker per Dmg blocked.
      * Overcharge: (5E) Block 3 Dmg. Disable Lazor of one attacker for 1 round.
   * **Absorber Shield** - Costs 5E
      * Activate: (1E) Block 1 Dmg. Store 1E if you take Dmg.
-     * Overcharge: (3E) Block all Dmg. Store 1E for each Dmg Blocked. Disable Shield 1 round
+     * Overcharge: (3E) Block all Dmg. Store 1E per Dmg Blocked. Disable Shield 1 round.
   * **Ultra Shield** - Costs 6E
      * Activate: (2E) Block Dmg for an additional 1E per Dmg blocked.
-     * Overcharge: (6E) Block all Dmg. On your next BINGO roll, choose the result for one die. Shield is disabled for 1 round
+     * Overcharge: (6E) Block all Dmg. On your next BINGO roll, choose result for one die. Shield is disabled for 1 round.
 
 * Batteries
   * **Military Battery** - Costs 4E
-     * Passive: 6E capacity. Supply 3E per turn + 1E when activating a Lazor.
+     * Capacity: 6E
+     * Passive: Supply 3E per turn + 1E when activating a Lazor.
      * Activate: Store 3E
   * **Barrier Battery** - Costs 4E
-     * Passive: 6E capacity. Supply 3E per turn + 1E when activating a Shield.
+     * Capacity: 6E
+     * Passive: Supply 3E per turn + 1E when activating a Shield.
      * Activate: Store 3E
   * **Reactive Battery** - Costs 5E
-     * Passive: 6E capacity.  Supply 3E per turn.
+     * Capacity: 6E
+     * Passive: Supply 3E per turn.
      * Activate: Store 3E + 1E per Dmg taken
   * **Chaotic Battery** - Costs 5E
-     * Passive: 8E capacity.  Supply 3E per turn.
-     * Activate: Store 4E. Players who rolled the same letter as you on the last BINGO roll gains 1E, the same number loses 1E.
+     * Capacity: 8E
+     * Passive: Supply 3E per turn.
+     * Activate: Store 4E. Players who rolled same letter as you on the last BINGO roll gain 1E, same number lose 1E.
   * **Tesseract Battery** - Costs 8E
+     * Capacity: 16E
      * Passive: No supply. Starts with 16E stored. Cannot be charged.
-     * Activate: (8E) Make an extra BINGO roll.
+     * Activate: Spend 8E to make an extra BINGO roll.
