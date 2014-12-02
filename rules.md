@@ -3,7 +3,7 @@
 ###**Game Contents**
 * 5 player BINGO cards - Each card has a 5x5 BINGO grid and 3 health squares to indicate player's current health
 * 40 score cubes x 5 colors - Used to score on BINGO card, indicate health, and battery charge.
-* 2 dice x 5 sets of BINGO dice - One with faces B, I, N, G, O, and * and the other with faces 1-5 and *. Used when making BINGO roll.
+* 2 BINGO dice x 5 sets - One with faces B, I, N, G, O, and * and the other with faces 1-5 and *. Used when making BINGO roll.
 * 15 Starter Item cards
   * 5 Basic Lazors
   * 5 Basic Shields
